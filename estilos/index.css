@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #063d47; /* Color de fondo */
+    color: #ffffff; /* Blanco */
+}
+
+h1 {
+    color: #ffffff; /* Blanco */
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #052c36; /* Color más oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #041f28; /* Color aún más oscuro */
+}
+
+#welcomeMessage {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffffff; /* Blanco */
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.9em;
+    color: #ffffff; /* Blanco */
+}
