@@ -20,22 +20,24 @@
             <tr>
                 <td>MULTIPLICACIÓN</td>
                 <td>Multiplica 2 números ingresados</td>
-                <td><button>Calcular</button></td>
+                <td><button class="calcular" data-operacion="multiplicacion">Calcular</button></td>
             </tr>
             <tr>
                 <td>EXPONENTE 2</td>
                 <td>Eleva al cuadrado 1 número ingresado</td>
-                <td><button>Calcular</button></td>
+                <td><button class="calcular" data-operacion="exponente">Calcular</button></td>
             </tr>
             <tr>
                 <td>RESTA</td>
                 <td>Resta 2 números ingresados</td>
-                <td><button>Calcular</button></td>
+                <td><button class="calcular" data-operacion="resta">Calcular</button></td>
             </tr>
         </tbody>
     </table>
-    <button id="paginaPrincipal">Volver a la Página Principal</button>
-    <button id="pagina2">Ir a Página 2 (Galería)</button>
+    <div class="button-container">
+        <button id="paginaPrincipal">Volver a la Página Principal</button>
+        <button id="pagina2">Ir a Galería</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -15,15 +15,21 @@ h1 {
     color: #ffffff; /* Blanco */
 }
 
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
 button {
     margin: 10px;
-    padding: 10px;
+    padding: 15px 30px; /* Botones más grandes */
     cursor: pointer;
     transition: transform 0.3s;
     background-color: #052c36; /* Color más oscuro */
     color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 1.1em; /* Texto más grande */
 }
 
 button:hover {
